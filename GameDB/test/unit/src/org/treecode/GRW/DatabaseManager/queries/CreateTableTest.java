@@ -5,10 +5,7 @@
  */
 package org.treecode.GRW.DatabaseManager.queries;
 
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import org.junit.After;
@@ -18,7 +15,6 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.treecode.GRW.DatabaseManager.DBConnection;
-import org.treecode.GRW.DatabaseManager.DBConnectionTest;
 import org.treecode.GRW.DatabaseManager.Field;
 
 /**
