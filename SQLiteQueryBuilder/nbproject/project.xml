@@ -57,7 +57,9 @@
                     </test-dependency>
                 </test-type>
             </test-dependencies>
-            <public-packages/>
+            <public-packages>
+                <package>org.gameDB.queryBuilder</package>
+            </public-packages>
         </data>
     </configuration>
 </project>
