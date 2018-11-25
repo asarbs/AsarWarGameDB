@@ -15,7 +15,7 @@ import org.openide.util.NbBundle.Messages;
  * Top component which displays something.
  */
 @ConvertAsProperties(
-        dtd = "-//org.treecode.MainEditor.exploter//DBExpolere//EN",
+        dtd = "-//org.treecode.MainEditor.exploter//DBExplorer//EN",
         autostore = false
 )
 @TopComponent.Description(
@@ -24,17 +24,17 @@ import org.openide.util.NbBundle.Messages;
         persistenceType = TopComponent.PERSISTENCE_ALWAYS
 )
 @TopComponent.Registration(mode = "explorer", openAtStartup = true)
-@ActionID(category = "Window", id = "org.treecode.MainEditor.exploter.DBExpolereTopComponent")
+@ActionID(category = "Window", id = "org.treecode.MainEditor.exploter.DBExplorerTopComponent")
 @ActionReference(path = "Menu/Window" /*, position = 333 */)
 @TopComponent.OpenActionRegistration(
-        displayName = "#CTL_DBExpolereAction",
-        preferredID = "DBExpolereTopComponent"
+        displayName = "#CTL_DBExplorerAction",
+        preferredID = "DBExplorerTopComponent"
 )
 @Messages(
         {
-            "CTL_DBExpolereAction=DBExpolere",
-            "CTL_DBExpolereTopComponent=DBExpolere Window",
-            "HINT_DBExpolereTopComponent=This is a DBExpolere window"
+            "CTL_DBExplorerAction=DBExplorer",
+            "CTL_DBExplorerTopComponent=DBExplorer Window",
+            "HINT_DBExplorerTopComponent=This is a DBExplorer window"
         })
 public final class DBExplorerTopComponent extends TopComponent
 {
@@ -42,8 +42,8 @@ public final class DBExplorerTopComponent extends TopComponent
     public DBExplorerTopComponent()
     {
         initComponents();
-        setName(Bundle.CTL_DBExpolereTopComponent());
-        setToolTipText(Bundle.HINT_DBExpolereTopComponent());
+        setName(Bundle.CTL_DBExplorerTopComponent());
+        setToolTipText(Bundle.HINT_DBExplorerTopComponent());
         putClientProperty(TopComponent.PROP_CLOSING_DISABLED, Boolean.TRUE);
         putClientProperty(TopComponent.PROP_DRAGGING_DISABLED, Boolean.TRUE);
         putClientProperty(TopComponent.PROP_MAXIMIZATION_DISABLED, Boolean.TRUE);
