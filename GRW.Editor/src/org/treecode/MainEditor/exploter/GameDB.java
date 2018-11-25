@@ -58,7 +58,7 @@ public class GameDB implements DBItem
 //          default:
 //            return _weaponsList;
 //        }
-        return "Null Object";
+        return new NullObject();
     }
 
     @Override

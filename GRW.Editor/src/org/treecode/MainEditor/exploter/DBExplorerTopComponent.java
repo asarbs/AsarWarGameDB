@@ -62,10 +62,10 @@ public final class DBExplorerTopComponent extends TopComponent
     {
 
         jScrollPane1 = new javax.swing.JScrollPane();
-        DBExplorer = new javax.swing.JTree();
+        dbExplorer = new javax.swing.JTree();
 
-        DBExplorer.setModel(new DBTreeModel());
-        jScrollPane1.setViewportView(DBExplorer);
+        dbExplorer.setModel(new DBTreeModel());
+        jScrollPane1.setViewportView(dbExplorer);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -80,13 +80,13 @@ public final class DBExplorerTopComponent extends TopComponent
     }// </editor-fold>//GEN-END:initComponents
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JTree DBExplorer;
+    private javax.swing.JTree dbExplorer;
     private javax.swing.JScrollPane jScrollPane1;
     // End of variables declaration//GEN-END:variables
     @Override
     public void componentOpened()
     {
-        
+        // TODO add custom code on component opening
     }
 
     @Override
