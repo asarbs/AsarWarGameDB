@@ -3,3 +3,8 @@
 /GRW,Editor/nbproject/private/
 /GRW,Editor/build/
 /GRW.Editor/nbproject/private/
+/GRW.Editor/build/
+/build/
+/sqlite-jdbc/build/
+/GameDB/build/
+/SQLiteQueryBuilder/build/
